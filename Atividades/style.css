@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(95, 92, 89);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 52px;
+    flex-direction: column;
+}
+
+button{
+    margin: 5px;
+}
