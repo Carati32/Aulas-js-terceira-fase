@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "nome": "Yuri Carati",
+        "idade": 15,
+        "email":"yuricarati@gmail.com",
+        "salario":50.300
+    },
+    {
+        "id":2,
+        "nome":"Ana Morais",
+        "idade":20,
+        "email":"anabeatriz@gmail.com",
+        "salario":70.590
+    }
+]
