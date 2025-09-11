@@ -1,4 +1,4 @@
-// src/routes/usuarios.js
+// src/routes/usuario.js
 const express = require('express');
 const router = express.Router();
 const db = require('../config/db');
@@ -28,7 +28,7 @@ router.post('/', async (req, res) => {
     }
 });
 
-// DELETE /usuarios/:id
+// DELETE /usuario/:id
 router.delete('/:id', async (req, res) => {
     const { id } = req.params; // Obtém o ID do usuário a ser deletado a partir dos parâmetros da URL
     try {
@@ -43,7 +43,7 @@ router.delete('/:id', async (req, res) => {
     }
 });
 
-//PUT /usuarios/:id
+//PUT /usuario/:id
 router.put('/:id', async (req, res) => { // Atualiza os dados de um usuário existente
     const { id } = req.params; // Obtém o ID do usuário a ser atualizado a partir dos parâmetros da URL
     const { nome, email } = req.body; // Obtém os novos dados do usuário a partir do corpo da requisição

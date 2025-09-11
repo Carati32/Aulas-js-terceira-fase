@@ -15,8 +15,8 @@ app.get('/', (req, res) => {
 });
 
 // Rota para usuários (GET)
-const usuariosRouter = require('./src/routes/usuarios');
-app.use('/usuarios', usuariosRouter);
+const usuarioRouter = require('./src/routes/usuario');
+app.use('/usuario', usuarioRouter);
 
 
 // Inicia o servidor

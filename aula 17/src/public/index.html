@@ -11,7 +11,7 @@
     <div class="container" style="margin-top: 50px;">
         <h2>CADASTRO DE USUARIO</h2>
         <form id="frmCad">
-            <div class="mb-3">
+            <div  iv class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Nome</label>
                 <input type="text" class="form-control" id="nome" aria-describedby="">
             </div>
@@ -35,7 +35,7 @@
         const dados = { nome, email };
 
         try {
-            const response = await fetch('http://localhost:3000/usuarios', { // <--- await
+            const response = await fetch('http://localhost:3000/usuario', { // <--- await
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
